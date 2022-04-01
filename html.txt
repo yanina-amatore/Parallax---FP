@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>parallax.html</title>
+    <link rel="stylesheet" href="css/master.css">
+    
+      <script src="./assests/js/script.js" defer></script>
+  </head>
+  <body id="top">
+    <header>
+    <nav>
+     <ul class="menu">
+        <li class="logo"><span>logo goes here</span></li>
+        <li class="item"><a href="./index.html"><i class="fa-solid fa-house-chimney"></i> home</a></li>
+        <li class="item"><a href="./about.html"><i class="fa-solid fa-address-card"></i> about</a></li>
+        <li class="item"><a href="./contact.html"><i class="fa-solid fa-envelopes-bulk"></i> contact</a></li>
+        <li class="item button"><a href="#">Log In</a></li>
+        <li class="item button secondary"><a href="#">Sign Up</a></li>
+        <li class="toggle"><span class="bars"></span></li>
+        </ul>
+    </nav>
+  </header>
+    <main>    
+      <div class="parallax bgTwo">
+      <div class="container">
+       <div class="container-2">
+        <div class="row">
+         <div class="col-12 hi">
+           <h1>hi! i'm yanina</h1></div>
+      </div>
+      <div class="row">    
+        <div class="col-4 greeting-container"></div>          
+        <div class="col-8 greeting-container">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id totam quaerat maxime sit ullam nisi fugit autem facere iure consectetur!</p>
+        </div>        
+      </div>
+    <hr />
+    <div class="row">
+        <div class="col-5"></div>
+        <div class="col-7 greeting-container2">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ad sequi nam excepturi, aperiam consectetur soluta repellendus exercitationem voluptas impedit quaerat consequatur ducimus odio possimus numquam quisquam ratione, provident magni.</p>
+        </div>
+    </div>
+    </div>
+  </div>
+</div>  
+
+<div class="panel">
+  <div id="stout">
+    <h2>Stout</h2>
+    <h3>Limited edition release</h3>
+    <p>So in 2015, our quindecennial year as a brewery, we created a limited edition
+  Russian Imperial Stout, XV. It has been cellared (upright, of course - we do
+  things a wee bit differently from our vinetarian cousins) over the past year and,
+  just like this brewery, XV has improved with age!.</p>
+  </div>
+  <img src="images/stout.png" alt="#" height="80%">
+</div>
+
+<div class="parallax bgThree">
+  <h2>welcome to the third eyes</h2>
+</div>
+<div class="panel">
+<div id="dubbel">
+    <h2>Dubbel</h2>
+    <h3>Brewed with some divine inspiration</h3>
+    <p>This Belgian Dubbel is true to the classic dark ale perfected by Belgian monks
+  wanting to brew a beer that had plenty of fortitude. With its prominent plum
+  and raisin notes and characteristic caramel sweetness from candied sugar, this
+  double-barrelled flavour sensation brings divine inspiration to Godzone.</p>
+  </div>
+  <img src="images/dubbel.png" alt="#" height="80%">
+</div>
+</main>
+
+
+    <footer>
+    	<p><a href="#top">back to top</p>
+    </footer>
+
+  </body>
+</html>
