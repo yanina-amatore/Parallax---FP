@@ -1,0 +1,116 @@
+/* clear style rule */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style-type: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: helvetica;
+}
+
+.panel {
+	/*height: 100vh; the view height value*/
+	height: 900px;
+}
+
+.parallax {
+	/*height: 100vh;  the view height value */
+	height: 900px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.bgOne {
+	background-image: url('../images/tuataraTwo.jpg');
+}
+
+.bgTwo {
+	background-image: url('../images/tuatara.png');
+}
+
+.bgThree {
+	background-image: url('../images/tuataraThree.png');
+}
+
+
+header img {
+	display: block;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+nav {
+	background-color: #111;
+	overflow: auto;
+	width: 33.33%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+header nav ul li {
+	float: left;
+	padding: 50px;
+	margin-left: 33.33px;
+}
+
+header nav ul li a {
+	color: white;
+}
+
+.parallax h2 {
+	text-align: center;
+	font-size: 180px;
+	color: white;
+	text-transform: uppercase;
+	padding-top: 12%;
+	opacity: 80%;
+
+}
+
+.panel div {
+	width: 30%;
+	height: 800px;
+	float: left;
+	margin-left: 20%;
+	padding-top: 100px;
+}
+
+.panel h2 {
+	font-size: 70px;
+	text-transform: uppercase;
+	padding: 80px 0px;
+}
+
+.panel h3 {
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.panel p {
+	font-size: 14px;
+	color: #666;
+	padding: 80px 0px;
+	letter-spacing: 2px;
+	line-height: 20px;
+	text-align: justify;
+}
+.panel img {
+	padding-top: 80px;
+	padding-left: 160px;
+
+}
+
+footer p a {
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+	padding: 25px;
+	display: block;
+}
